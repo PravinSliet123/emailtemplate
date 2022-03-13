@@ -1,0 +1,12 @@
+.Slider_container{
+  
+    background-color: black;
+    margin-left: 5rem;
+    margin-right: 5rem;
+   
+}
+.Slider__image img{
+    width: 20rem;
+}
+
+

@@ -1,0 +1,133 @@
+.EmailTemplate{
+    background-image: url("./images/background-main.png");
+    background-position: center,right;
+    background-size: cover ,100%;
+    background-repeat: no-repeat,no-repeat;
+    background-color: black;
+    color: white;
+    text-align: center;
+    z-index: 1;;
+}
+.EmailTemplate__nav{
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+}
+.EmailTemplate__nav__logo img{
+    width: 156px;
+    height: 30px;
+    margin-top: 1rem;
+
+}
+.EmailTemplateHeadelogo__right{
+    cursor: pointer;
+    font-size: medium;
+}
+.EmailTemplateHeadelogo__right:hover{
+    color: green;
+}
+.EmailTemplate__content__topImage img{
+    object-fit: contain;
+    width: 249px;
+    height: 249px;
+}
+.EmailTemplate__content__topImage h1{
+    font-family: "heading font";
+    /* margin-top: -1rem; */
+}
+.EmailTemplate__content__username h3{
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.EmailTemplate__content__username p{
+    font-weight: 600;
+}
+.EmailTemplate__content__username button{
+    padding: .6rem;
+    padding-left: .9rem;
+    padding-right: .9rem;
+    background: linear-gradient( 90deg, rgb(6, 231, 6) 58%, rgba(12, 56, 17, 0.842) 98%);
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    cursor: pointer;
+  
+}
+.EmailTemplate__content__imagebottom img{
+    margin-top:.5rem;
+}
+.EmailTemplate__content__imagebottom h3{
+    margin-top: -.5rem;
+    padding-bottom: 1rem !important;
+}
+.EmailTemplate__footer{
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem;
+    /* background-image: url("./images/bgoverlay-left.png"); */
+}
+.EmailTemplate__footer__icons {
+    display: flex;
+    z-index: 1;
+}
+.EmailTemplate__footer__icons a{
+    text-decoration: none;
+    color: white;
+    margin-left: .5rem;
+    margin-top: 1.5rem;
+}
+.EmailTemplate__techfestPageLink {
+    margin-top: 1.3rem;
+}
+.EmailTemplate__techfestPageLink a{
+    text-decoration: none;
+    color: white;
+ 
+}
+.EmailTemplate__techfestPageLink{
+    z-index: 1;
+}
+.EmailTemplate__techfestPageLink a:hover{
+    color: green;
+}
+
+@media screen and (max-width:440px) 
+{
+ .EmailTemplate__footer__icons h4{
+     font-size: 8px;
+     margin-top: 2rem;
+ }   
+ .EmailTemplate__footer__icons .fa{
+     font-size: 10px;
+ }
+}
+@media screen and (max-width:340px) 
+{
+ .EmailTemplateHeadelogo__right h3{
+     font-size: 15px;
+ }
+ .EmailTemplate__nav__logo img{
+     margin-top: .8rem !important;
+ }
+}
+.EmailTemplate__topShadow img{
+    position: fixed;
+    top: -19rem;
+    left: -2rem;
+    z-index: 0;
+    height: 80rem;
+   
+}
+.EmailTemplate__topShadow__bottom img{
+    position: fixed;
+    top: -19rem;
+    /* left: -2rem; */
+    z-index: 0;
+    right: 0;
+    height: 80rem;
+    transform: rotate(180deg);
+}
