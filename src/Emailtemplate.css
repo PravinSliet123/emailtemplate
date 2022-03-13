@@ -104,6 +104,12 @@
  .EmailTemplate__footer__icons .fa{
      font-size: 10px;
  }
+ .EmailTemplate__topShadow{
+     display: none !important;
+ }
+ .EmailTemplate__topShadow__bottom{
+     display: none !important;
+ }
 }
 @media screen and (max-width:340px) 
 {
