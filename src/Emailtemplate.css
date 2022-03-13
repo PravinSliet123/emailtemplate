@@ -54,7 +54,8 @@
     border: none;
     margin-top: .5rem;
     margin-bottom: .5rem;
-    cursor: pointer;
+    cursor: pointer !important;
+    z-index: 1;
   
 }
 .EmailTemplate__content__imagebottom img{
@@ -67,7 +68,7 @@
 .EmailTemplate__footer{
     display: flex;
     justify-content: space-around;
-    padding: .5rem;
+    padding-bottom: 2.22rem;
     /* background-image: url("./images/bgoverlay-left.png"); */
 }
 .EmailTemplate__footer__icons {

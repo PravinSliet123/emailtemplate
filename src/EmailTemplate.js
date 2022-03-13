@@ -35,7 +35,7 @@ function EmailTemplate() {
                         ignore this email.Your password will not be changed. </p>
                 </div>
                 <div className="EmailTemplate__content__imagebottom">
-                    <img src={Emailtempimg1} alt="" />
+                 
                     <h3>Team techFEST</h3>
                 </div>
 

@@ -6,7 +6,7 @@ function Fourzerofour() {
     return (
         <div className='four__zero__page'>
             {/* <img  className='four__zero__page__backimg' src={backimageFourzeroFour} alt="" /> */}
-            <div div className="EmailTemplate__topShadow">
+            <div div className="Fourzero__topShadow">
                 <img src={EmailtemplateTopShadow} alt="" />
             </div>
 
@@ -23,7 +23,7 @@ function Fourzerofour() {
 
 
 
-            <div className="EmailTemplate__topShadow__bottom">
+            <div className="Fourzero__topShadow__bottom">
                     <img src={EmailtemplateTopShadow} alt="" />
                 </div>
         </div>
